@@ -99,10 +99,11 @@ header > h1{
 
 .imagem#estagiario p {
     background-color: rgba(255, 255, 255, 0.493);
-    width:350px;
+    width:40vw;
     border-radius:10px;
     padding-left: 18px;
     text-shadow: 1px 1px 0px black;
+    
 
 }
 
@@ -116,8 +117,7 @@ height: 40vw;
 
 .imagem#formando p{
     background-color: rgba(255, 255, 255, 0.493);
-    width:350px;
-    height: 400px;
+    width:40vw;
     border-radius:10px;
     padding-left: 18px;
     text-shadow: 1px 1px 0px black;
