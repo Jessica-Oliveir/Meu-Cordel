@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: 'Share-Techmono';
+    src: url(./Fonts/Share-TechMono.otf) format('opentype');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'technott';
+    src: url(./Fonts/technott.ttf) format('truetype');
+    font-weight: normal;
+}
+
+:root{
+    --fonte-paragrafo: "Share-Techmono", serif;
+    --fonte-titulo: "technott", serif;
+    --fonte-normal: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color:;
+    font-family: var(--fonte-normal);
+}
+
+header{
+    background-image: linear-gradient(to bottom, black, rgb(73, 72, 72));
+    
+}
+
+header > h1{
+
+    font-family: var(--fonte-titulo);
+    color: rgba(255, 255, 255, 0.911);
+    text-align: center;
+    font-size: 7vw;
+    text-shadow: 2px 2px 0px black;
+    padding: 43px 0px 10px 0px;
+}
+
+.normal{
+    padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-family: var(--fonte-paragrafo);
+    font-size: 3vw;
+    
+    
+}
+
+.imagem{
+    background-color: grey;
+    padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-family: var(--fonte-paragrafo);
+    font-size: 2.5vw;
+    font-weight: 500;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    
+
+
+}
+
+.imagem#vscode{
+    background-image: url(imagens/website-html-code-browser-view-printed-white-paper-closeup-view.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagem#vscode >p{
+    background-color: rgba(15, 25, 168, 0.733);
+    width:400px;
+    border-radius:10px;
+    padding-left: 18px;
+    text-shadow: 1px 1px 0px black;
+
+}
+
+.imagem#estagiario{
+    background-image: url(imagens/it_intern_wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.imagem#estagiario p {
+    background-color: rgba(255, 255, 255, 0.493);
+    width:350px;
+    border-radius:10px;
+    padding-left: 18px;
+    text-shadow: 1px 1px 0px black;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+a{
+color: white;
+text-decoration: none;
+font-family: var(--fonte-normal);
+font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
