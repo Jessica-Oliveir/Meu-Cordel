@@ -25,6 +25,10 @@ body{
     min-height: 100vh;
     font-family: var(--fonte-normal);
     background-image:linear-gradient(rgba(255, 255, 255, 0.39), rgba(250, 247, 247, 0.25)), url(imagens/43534.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
     
 }
 
