@@ -37,7 +37,7 @@ header{
     background-size: cover;
     background-position: center center;
     box-shadow:  6px 6px 13px 0px rgba(0, 0, 0, 0.473) ;
-    height: 40vh;
+    height: 40vw;
 
 
 }
@@ -48,13 +48,16 @@ header > h1{
     text-align: center;
     font-size: 7vw;
     text-shadow: 2px 2px 0px black;
-    padding-top: 11vh;
+    padding: 10vw;
+    
+    
+
 }
 
 .normal{
     padding-left: 30px;
-    padding-top: 10vh;
-    padding-bottom:  ;
+    padding-bottom: 20px  ;
+    margin-top: 30px;
     line-height: 2em;
     font-family: var(--fonte-paragrafo);
     font-size: 3vw;
@@ -86,6 +89,7 @@ header > h1{
 }
 
 .imagem#vscode >p{
+    display: inline-block;
     background-color: rgba(238, 238, 240, 0.726);
     width:45vw;
     border-radius:10px;
@@ -104,6 +108,7 @@ header > h1{
 }
 
 .imagem#estagiario p {
+    display: inline-block;
     background-color: rgba(255, 255, 255, 0.493);
     width:43vw;
     border-radius:10px;
@@ -123,6 +128,7 @@ height: 40vw;
 }
 
 .imagem#formando p{
+    display: inline-block;
     background-color: rgba(255, 255, 255, 0.288);
     width:43vw;
     border-radius:10px;
