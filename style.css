@@ -91,7 +91,8 @@ header > h1{
 .imagem#vscode >p{
     display: inline-block;
     background-color: rgba(238, 238, 240, 0.726);
-    width:45vw;
+    width:43vw;
+    height: 39vw;
     border-radius:10px;
     padding-left: 18px;
     font-weight: bold;
@@ -110,7 +111,8 @@ header > h1{
 .imagem#estagiario p {
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.493);
-    width:43vw;
+    width:40vw;
+    height: 39vw;
     border-radius:10px;
     padding-left: 18px;
     font-weight: bold;
@@ -131,6 +133,7 @@ height: 40vw;
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.288);
     width:43vw;
+    height: 39vw;
     border-radius:10px;
     padding-left: 18px;
     font-weight: bold;
