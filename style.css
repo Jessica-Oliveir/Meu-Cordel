@@ -37,6 +37,7 @@ header{
     background-size: cover;
     background-position: center center;
     box-shadow:  6px 6px 13px 0px rgba(0, 0, 0, 0.473) ;
+    height: 35vh;
 
 
 }
@@ -45,15 +46,15 @@ header > h1{
     font-family: var(--fonte-titulo);
     color: rgba(255, 255, 255, 0.911);
     text-align: center;
-    font-size: 7vw;
+    font-size: 8vw;
     text-shadow: 2px 2px 0px black;
-    padding: 43px 0px 30px 0px;
+    padding: 55px 0px 0px 0px;
 }
 
 .normal{
     padding-left: 30px;
     padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-bottom:  ;
     line-height: 2em;
     font-family: var(--fonte-paragrafo);
     font-size: 3vw;
@@ -63,7 +64,8 @@ header > h1{
     background-color: grey;
     padding-left: 30px;
     padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-bottom: 35vh;
+    margin-top: 10vh;
     line-height: 2em;
     font-family: var(--fonte-paragrafo);
     font-size: 2.5vw;
@@ -85,10 +87,11 @@ header > h1{
 
 .imagem#vscode >p{
     background-color: rgba(238, 238, 240, 0.726);
-    width:40vw;
+    width:45vw;
     border-radius:10px;
     padding-left: 18px;
-    text-shadow: 1px 1px 0px black;
+    font-weight: bold;
+    font-size: 3vw;
 
 }
 
@@ -105,7 +108,8 @@ header > h1{
     width:40vw;
     border-radius:10px;
     padding-left: 18px;
-    text-shadow: 1px 1px 0px black;
+    font-weight: bold;
+    font-size: 3vw;
     
 
 }
@@ -120,10 +124,11 @@ height: 40vw;
 
 .imagem#formando p{
     background-color: rgba(255, 255, 255, 0.493);
-    width:40vw;
+    width:45vw;
     border-radius:10px;
     padding-left: 18px;
-    text-shadow: 1px 1px 0px black;
+    font-weight: bold;
+    font-size: 3vw;
 
 }
 
